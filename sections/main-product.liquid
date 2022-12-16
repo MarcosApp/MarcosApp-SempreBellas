@@ -326,10 +326,12 @@
             {%- when 'title' -%}
               <div class="product__title" {{ block.shopify_attributes }}>
                 <h1>{{ product.title | escape }}</h1>
+<div data-shop-id="{{shop.id}}" product-id="{{ product.id }}" class="ddreview-star"></div>
                 <a href="{{ product.url }}" class="product__title">
                   <h2 class="h1">
                     {{ product.title | escape }}
                   </h2>
+<div data-shop-id="{{shop.id}}" product-id="{{ product.id }}" class="ddreview-star"></div>
                 </a>
               </div>
             {%- when 'price' -%}

@@ -113,6 +113,7 @@
               >
                 {{ card_product.title | escape }}
               </a>
+<div data-shop-id="{{shop.id}}" product-id="{{ card_product.id }}" class="ddreview-star"></div>
             </h3>
           </div>
           <div class="card__badge {{ settings.badge_position }}">
@@ -150,6 +151,7 @@
             >
               {{ card_product.title | escape }}
             </a>
+<div data-shop-id="{{shop.id}}" product-id="{{ card_product.id }}" class="ddreview-star"></div>
           </h3>
           <div class="card-information">
             {%- if show_vendor -%}
