@@ -88,7 +88,6 @@
         },
         "collection-2": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
             "collection": "batom"
           }
@@ -101,6 +100,7 @@
         },
         "d600b399-e2b0-441f-8aa6-9519f7bf680c": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "base-1"
           }
