@@ -77,20 +77,20 @@
         "collection-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "maquiagem"
           }
         },
         "collection-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "esmalte"
           }
         },
         "collection-2": {
           "type": "featured_collection",
           "disabled": true,
           "settings": {
-            "collection": ""
+            "collection": "batom"
           }
         }
       },
