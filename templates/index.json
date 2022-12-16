@@ -277,7 +277,7 @@
       ],
       "settings": {
         "color_scheme": "background-1",
-        "full_width": true,
+        "full_width": false,
         "padding_top": 0,
         "padding_bottom": 0
       }
