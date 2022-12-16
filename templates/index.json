@@ -73,9 +73,38 @@
         },
         "d600b399-e2b0-441f-8aa6-9519f7bf680c": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
             "collection": "base-1"
+          }
+        },
+        "97c5c644-f6ba-4d8a-a16e-032ade142e13": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "rimel"
+          }
+        },
+        "e3355926-3663-44d1-9b15-6d32c742f90b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gloss"
+          }
+        },
+        "79ce3850-e1dd-4f75-8e5d-ec0e1e1aefbe": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "skincare"
+          }
+        },
+        "13e792f6-cf8f-49ad-965e-029ede37cd68": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "blush"
+          }
+        },
+        "d7cb8d67-c28a-4519-a2a7-287f2aa05726": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cuidados-pessoais-1"
           }
         }
       },
@@ -84,7 +113,12 @@
         "collection-0",
         "collection-2",
         "b9138e3f-a7d9-4164-b205-7c8360f30bd2",
-        "d600b399-e2b0-441f-8aa6-9519f7bf680c"
+        "d600b399-e2b0-441f-8aa6-9519f7bf680c",
+        "97c5c644-f6ba-4d8a-a16e-032ade142e13",
+        "e3355926-3663-44d1-9b15-6d32c742f90b",
+        "79ce3850-e1dd-4f75-8e5d-ec0e1e1aefbe",
+        "13e792f6-cf8f-49ad-965e-029ede37cd68",
+        "d7cb8d67-c28a-4519-a2a7-287f2aa05726"
       ],
       "settings": {
         "title": "Coleções",
