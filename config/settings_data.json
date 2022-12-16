@@ -169,18 +169,10 @@
               "heading": "Menu",
               "menu": "footer"
             }
-          },
-          "text-1": {
-            "type": "text",
-            "settings": {
-              "heading": "Siga-nos nas redes sociais e fique por dentro de todas as nossas ações",
-              "subtext": "<p><strong>Instagram: <\/strong>https:\/\/www.instagram.com\/semprebellas.com.br<\/p><p><strong>Facebook: <\/strong>https:\/\/www.facebook.com\/semprebellas.com.br<\/p><p><strong>whatsapp:<\/strong> (55) 019 998902421<\/p>"
-            }
           }
         },
         "block_order": [
-          "linklist",
-          "text-1"
+          "linklist"
         ],
         "settings": {
           "color_scheme": "accent-1",
