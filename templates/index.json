@@ -91,7 +91,7 @@
         "heading_size": "h2",
         "image_ratio": "adapt",
         "columns_desktop": 4,
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "show_view_all": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
@@ -193,7 +193,7 @@
         "desktop_layout": "right",
         "mobile_layout": "column",
         "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "padding_top": 60,
         "padding_bottom": 16
       }
@@ -290,7 +290,7 @@
         "email-form"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "full_width": false,
         "padding_top": 0,
         "padding_bottom": 0
