@@ -92,12 +92,26 @@
           "settings": {
             "collection": "batom"
           }
+        },
+        "b9138e3f-a7d9-4164-b205-7c8360f30bd2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "teste"
+          }
+        },
+        "d600b399-e2b0-441f-8aa6-9519f7bf680c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "base-1"
+          }
         }
       },
       "block_order": [
         "collection-1",
         "collection-0",
-        "collection-2"
+        "collection-2",
+        "b9138e3f-a7d9-4164-b205-7c8360f30bd2",
+        "d600b399-e2b0-441f-8aa6-9519f7bf680c"
       ],
       "settings": {
         "title": "Coleções",
