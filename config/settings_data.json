@@ -166,7 +166,7 @@
           "linklist": {
             "type": "link_list",
             "settings": {
-              "heading": "Menu",
+              "heading": "",
               "menu": "footer"
             }
           }
