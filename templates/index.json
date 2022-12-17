@@ -49,6 +49,7 @@
       "blocks": {
         "collection-1": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "maquiagem"
           }
@@ -61,18 +62,21 @@
         },
         "collection-2": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "batom"
           }
         },
         "b9138e3f-a7d9-4164-b205-7c8360f30bd2": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "teste"
           }
         },
         "d600b399-e2b0-441f-8aa6-9519f7bf680c": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "base-1"
           }
@@ -91,6 +95,7 @@
         },
         "79ce3850-e1dd-4f75-8e5d-ec0e1e1aefbe": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "skincare"
           }
@@ -103,6 +108,7 @@
         },
         "d7cb8d67-c28a-4519-a2a7-287f2aa05726": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "cuidados-pessoais-1"
           }

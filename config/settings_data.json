@@ -108,7 +108,7 @@
     "social_twitter_link": "",
     "social_facebook_link": "https:\/\/web.facebook.com\/profile.php?id=100088452380472&_rdc=1&_rdr",
     "social_pinterest_link": "",
-    "social_instagram_link": "https:\/\/www.instagram.com\/semprebellas",
+    "social_instagram_link": "https:\/\/www.instagram.com\/semprebellas.com.br",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
@@ -121,7 +121,7 @@
     "currency_code_enabled": true,
     "cart_type": "page",
     "show_vendor": false,
-    "show_cart_note": false,
+    "show_cart_note": true,
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
