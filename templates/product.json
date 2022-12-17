@@ -45,7 +45,7 @@
         "share": {
           "type": "share",
           "settings": {
-            "share_label": "Share"
+            "share_label": "Compartilhar"
           }
         },
         "collapsible-content-0": {
