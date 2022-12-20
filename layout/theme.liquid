@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
+    <meta name="facebook-domain-verification" content="tnbdnnu77cjorkq2455s6j501pkm4r">
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
 
@@ -226,20 +227,26 @@
     {%- endunless -%}
 
     {%- if settings.predictive_search_enabled -%}
-      <link rel="stylesheet" href="{{ 'component-predictive-search.css' | asset_url }}" media="print" onload="this.media='all'">
+      <link
+        rel="stylesheet"
+        href="{{ 'component-predictive-search.css' | asset_url }}"
+        media="print"
+        onload="this.media='all'"
+      >
     {%- endif -%}
 
-    <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
-    if (Shopify.designMode) {
-      document.documentElement.classList.add('shopify-design-mode');
-    }
+    <script>
+      document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+      if (Shopify.designMode) {
+        document.documentElement.classList.add('shopify-design-mode');
+      }
     </script>
-  {% include 'dadao_reviews_core.liquid' %}
-</head>
+    {% include 'dadao_reviews_core.liquid' %}
+  </head>
 
   <body class="gradient">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
-      {{ "accessibility.skip_to_text" | t }}
+      {{ 'accessibility.skip_to_text' | t }}
     </a>
 
     {%- if settings.cart_type == 'drawer' -%}
@@ -260,6 +267,7 @@
     </ul>
 
     <script>
+      
       window.shopUrl = '{{ request.origin }}';
       window.routes = {
         cart_add_url: '{{ routes.cart_add_url }}',
@@ -286,13 +294,15 @@
         pauseSlideshow: `{{ 'sections.slideshow.pause_slideshow' | t }}`,
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`,
       }
+
     </script>
 
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  <!-- Don't Remove this code. CartPanda App code. -->
-{% capture cartX_snippet_content %}{% include 'cartxCheckoutSnippet' %}{% endcapture %} {% unless cartX_snippet_content contains 'Liquid error' %} {% include 'cartxCheckoutSnippet' %} {% endunless %}
-<!-- Don't Remove this code. CaCartPandartX App code. -->
-</body>
+    <!-- Don't Remove this code. CartPanda App code. -->
+    {% capture cartX_snippet_content %}{% include 'cartxCheckoutSnippet' %}{% endcapture %}
+    {% unless cartX_snippet_content contains 'Liquid error' %} {% include 'cartxCheckoutSnippet' %} {% endunless %}
+    <!-- Don't Remove this code. CaCartPandartX App code. -->
+  </body>
 </html>
